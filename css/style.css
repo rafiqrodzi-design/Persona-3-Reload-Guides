@@ -397,7 +397,7 @@ li.elizabeth-deadline {
 }
 
 .guide-link {
-    text-align: left;
+    text-align: right;
 }
 
 /* ── Sidebar Navigation (Desktop) ── */
@@ -410,6 +410,12 @@ li.elizabeth-deadline {
     flex-direction: column;
     gap: 6px;
     padding-top: 1rem;
+	color: rgb(255, 255, 255);
+    background-color: rgb(0, 127, 201);
+    margin: 0;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    border: white solid;
 }
 .side-nav .nav-label {
     font-size: 10px;
