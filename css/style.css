@@ -1,5 +1,9 @@
 .contents {
     display: none;
+
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 section p {
@@ -70,10 +74,8 @@ ul {
 }
 
 body {
-    margin: auto;
-    padding: 1em;
+    margin: 0;
     background-color: rgb(43, 43, 43);
-    width: 100%;
     font-family: Outfit, sans-serif;
     color: white;
 }
