@@ -381,9 +381,9 @@ li.elizabeth-deadline { color: #ff6b6b; font-weight: bold; }
 /* ── LEFT Sidebar ── */
 .side-nav {
     position: sticky;
-    top: 1rem;
+    top: calc(50vh - 200px);
     flex-shrink: 0;
-    width: 120px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -441,7 +441,7 @@ li.elizabeth-deadline { color: #ff6b6b; font-weight: bold; }
 /* ── RIGHT Spacer (sama lebar sidebar supaya content tengah) ── */
 .right-spacer {
     flex-shrink: 0;
-    width: 120px;
+    width: 200px;
 }
 
 /* ── Mobile ── */
